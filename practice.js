@@ -4,6 +4,11 @@
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
 
   //Code here
+var me = {
+  name : "grant",
+  age : 20,
+}
+alert(me.name);
 
 
 
@@ -19,7 +24,14 @@
 
   //Code here
 
-
+var favoriteThings = {
+  band: "youth lagoon",
+  food: "steak",
+  person: "mom",
+  book: "who moved my cheese?",
+  movie: "oceans 11",
+  holiday: "christmas"
+}
 
 
 
@@ -29,7 +41,8 @@
 
   //Code here
 
-
+favoriteThings.car = "jeep",
+favoriteThings.brand = "range rover"
 
 
 
@@ -37,7 +50,8 @@
 
   //Code here
 
-
+favoriteThings.food = "Chicken Nuggets", 
+favoriteThings.book = "Harry Potter"
 
 
 
